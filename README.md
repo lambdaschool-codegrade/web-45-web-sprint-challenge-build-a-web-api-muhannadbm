@@ -147,7 +147,26 @@ We have provided test data for all the resources.
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. The core features of Node.js and Express and why they are useful.
+
+Node.js is an open-source, cross-platform, back-end JavaScript runtime environment
+Node js use asynchronous api's and libraries which is non-blocking
+Very Fast since its built on V8 JS engine
+Express is a back end web application framework for Node.js,
+used for designing and building web applications quickly and easily
+
 1. Understand and explain the use of Middleware.
+
+Middleware intercept the request and can modify it, then pass it to the next 
+piece of code, or even return a error response or do nothing to the request, depending on conditions
+
 1. The basic principles of the REST architectural style.
+
+Representational State Transfer, It is an architecture style for designing loosely coupled applications over HTTP,
+Uniform interface, Client-server, Stateless, Cacheable, Layered system
+
 1. Understand and explain the use of Express Routers.
+
+Routers in express help us organize our routes and code so if we have alot of models our code would still be easily readable
+
 1. Describe tooling used to manually test the correctness of an API.
+Postman, it allows the user to send HTTP requests to any end point including localhost 

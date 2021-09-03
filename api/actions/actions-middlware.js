@@ -9,12 +9,10 @@ async function checkId (req,res,next) {
     const {id} = req.params
     const action = await Action.get(id)
     if(action){
-        console.log('found action')
         req.action = action
         next()
     }
     else{
-        console.log('inside else check id')
         next({message: "Action not found",status: 404})
     }
 }
